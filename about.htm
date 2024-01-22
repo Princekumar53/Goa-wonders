@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Goa wonders</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #7dc84e, #8f94fb);
+            color: #fff;
+            text-align: center;
+        }
+
+        
+       
+
+header {
+    background-color: #333;
+    color: #c39595;
+    text-align: center;
+    padding: 3px;
+    font-family: 'Roboto', sans-serif;
+   
+}
+    
+
+nav{
+    width: 100%;
+    height: 100px;
+    background:transparent;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+   
+}
+.logo {
+    width: 300px;  /* Adjust the width to your preference */
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+    margin-right: 10px; /* Add margin to separate the logo from the menu items */
+    font-size:40px;
+    color: #e7e7e7;
+    
+    font-family: 'Roboto', sans-serif;
+
+}
+.menu a{
+    text-decoration: none;
+    text-decoration-color: bisque;
+    color: rgb(223, 228, 228);
+    padding: 10px;
+    margin-left: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    position: relative;
+}
+.menu a:before{
+    content: '';
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 0%;
+    height: 100%;
+    border-bottom: 3px solid indianred;
+    transition: 0.4s linear;
+    
+}
+.menu a:hover:before{
+    width: 90%;
+}
+.register a{
+    text-decoration: none;
+    color: rgb(250, 252, 252);
+    padding: 10px 20px;
+    font-size: 20px;
+    background: indianred;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+        section {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 30px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .text-content {
+            flex: 1;
+            text-align: left;
+        }
+
+        .text-content h1 {
+            color: #333;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .text-content p {
+            line-height: 1.6;
+            color: #555;
+            font-size: 1.1em;
+        }
+
+        .image-container {
+            width: 100%;
+            position: relative;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            margin-top: 20px;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: 300px;
+            border-radius: 10px;
+        }
+
+        .social-links {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .social-link {
+            margin: 0 15px;
+            color: rgb(50, 66, 66);
+            text-decoration: none;
+            font-size: 2em;
+            transition: color 0.3s ease;
+        }
+
+        .social-link:hover {
+            color: #ff7600;
+        }
+
+        .home-link {
+            display: inline-block;
+            position: relative;
+            margin-top: 20px;
+            margin-bottom: 40px;
+            padding: 10px 20px;
+            background-color: #78da47;
+            color: #fff;
+            text-decoration: none;
+            border: none;
+            border-radius: 10px;
+            font-size: 1.2em;
+           
+            font: weight 300px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            
+        }
+    
+        
+        .home-link:hover {
+            background-color: #f4eaea;
+        }
+    </style>
+</head>
+<body>
+
+    
+    <header>
+        <nav>
+            <div class="logo">Goa wonders
+                
+            </div>
+            <div class="menu">
+            <a href="goa.htm"> Home</a>
+            <a href="ex.htm"> Book Now</a>
+            <a href="pk.htm"> Why choose Us</a></div>
+            <div class="register">
+                <a href="hi.html">Register</a>
+            </div>
+        </nav>
+    </header>
+
+
+    <section>
+        <div class="image-container">
+            <img src="img/5.jpg" alt="Image description">
+        </div>
+
+        <div class="text-content">
+            <h1>About Us</h1>
+            <p>Welcome to Your Tourism Website! We are dedicated to providing you with the best travel experiences and helping you discover the beauty of various destinations around the world.</p>
+            
+            <p>Our team of passionate travelers has curated a selection of amazing destinations, activities, and accommodations to make your journey unforgettable. Whether you're an adventure seeker, a culture enthusiast, or simply looking for a relaxing getaway, we have something for everyone.</p>
+
+            <p>Explore our website to find travel guides, tips, and inspiration. Let us be your guide to creating memories that last a lifetime. Your next adventure starts here!</p>
+        </div>
+    </section>
+
+    <div class="social-links">
+        <a href="#" class="social-link" aria-label="Instagram">
+            <i class="fab fa-instagram fa-bounce fa-2xl "></i>
+        </a>
+        <a href="#" class="social-link" aria-label="LinkedIn">
+            <i class="fab fa-linkedin fa-bounce fa-2xl"></i>
+        </a>
+        <a href="#" class="social-link" aria-label="Instagram">
+            <i class="fab fa-github fa-bounce fa-2xl"></i>
+        </a>
+        <a href="#" class="social-link" aria-label="LinkedIn">
+            <i class="fab fa-x-twitter fa-bounce fa-2xl"></i>
+        </a>
+    </div>
+    
+    
+    
+
+</body>
+</html>
